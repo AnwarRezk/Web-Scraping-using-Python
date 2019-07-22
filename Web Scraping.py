@@ -28,11 +28,11 @@ def check_price():
     print(title.strip(),priceCut)
 
     if priceCut <= desired_price:
-            send_mail()
+            send_email()
 
 
 #A function to send an e-mail 
-def send_mail():
+def send_email():
     server = smtplib.SMTP('smtp.gmail.com',587) #establish a server connection
     server.ehlo() #server identification
     server.starttls() #encrypting the data
@@ -42,7 +42,7 @@ def send_mail():
     sender_password = input("Enter the sender emaill password : ")
     #the sender email password has to be generated for security issues
     #check app passwords on google..
-    #'wtituistitrtoovc'
+  
 
     receiver_email = input("Enter the receiver email : ")
     
