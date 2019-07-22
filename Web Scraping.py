@@ -30,7 +30,7 @@ def check_price():
             send_mail()
 
 
-#A fucntion to send an e-mail 
+#A function to send an e-mail 
 def send_mail():
     server = smtplib.SMTP('smtp.gmail.com',587) #establish a server connection
     server.ehlo() #server identification
