@@ -6,6 +6,7 @@ import time
 #URL = input('enter url of the target item(copy & paste) : ')
 
 URL = 'https://www.amazon.com/Samsung-A70-Infinity-U-Smartphone-International/dp/B07RWFC6NY/ref=sr_1_3?crid=350XK51HXG41X&keywords=samsung+galaxy+a70&qid=1563603327&s=gateway&sprefix=samsung+galaxy+a%2Caps%2C351&sr=8-3'
+#The previous URL is to show how the idea works, you can choose the target item you wants..
 
 #Just type on google -> my user agent ,user agent acts as a client in network protocol used to comm with a client server
 headers = {"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'}
@@ -62,9 +63,7 @@ def send_mail():
 check_price()
 
 
-# while(True):
-#     check_price()
-#     time.sleep(86400) #sleep for a day
+
 
 
 
